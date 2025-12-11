@@ -12,8 +12,7 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  // TAMBAH "Organisasi" SETELAH "Pendidikan"
+  
   const navLinks = [
     { name: "Beranda",    href: "#beranda" },
     { name: "Tentang",    href: "#tentang" },

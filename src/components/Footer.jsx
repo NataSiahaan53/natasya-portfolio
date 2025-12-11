@@ -5,12 +5,12 @@ const Footer = () => {
         <div className="flex gap-7">
             <a href="#beranda">Beranda</a>
             <a href="#tentang">Tentang</a>
-            <a href="#proyek">Pendidikan</a>
+            <a href="#pendidikan">Pendidikan</a>
             <a href="#proyek">Organisasi</a>
             <a href="#proyek">Proyek</a>
         </div>
         <div className="flex items-center gap-3">
-            <a href="#">
+            <a href="https://github.com/NataSiahaan53">
                 <i className="ri-github-fill ri-2x"></i>
             </a>
             <a href="#">

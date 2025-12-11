@@ -19,7 +19,6 @@ function App() {
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] opacity-20"></div>
 
         <div className="relative max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-16 items-center z-10">
-          {/* Kiri — Teks */}
           <div className="text-center lg:text-left space-y-6 lg:space-y-8">
             {/* Quote Card */}
             <div
@@ -199,7 +198,7 @@ function App() {
                   <p className="text-emerald-300 text-sm">BEM Institut Teknologi Del</p>
                 </div>
               </div>
-              <p className="text-gray-400 text-sm mb-4">2023 – Sekarang</p>
+              <p className="text-gray-400 text-sm mb-4">2023 - Sekarang</p>
               <ul className="text-left text-gray-300 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-400 mt-0.5">•</span>
@@ -228,7 +227,7 @@ function App() {
                   <p className="text-pink-300 text-sm">Institut Teknologi Del</p>
                 </div>
               </div>
-              <p className="text-gray-400 text-sm mb-4">2023 – Sekarang</p>
+              <p className="text-gray-400 text-sm mb-4">2023 - Sekarang</p>
               <ul className="text-left text-gray-300 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <span className="text-pink-400 mt-0.5">•</span>
