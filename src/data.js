@@ -127,7 +127,7 @@ export const listProyek = [
     id: 2,
     gambar: Proyek2,
     nama: "Rancang Bangun Sistem Informasi dan Manajemen Del Cafe",
-    desk: "LSistem Informasi dan Manajemen Del Cafe adalah aplikasi yang kami kembangkan untuk membantu pengelola kantin dalam mencatat menu, pemesanan, transaksi, dan penjualan harian secara lebih cepat dan terstruktur. Sistem ini menggantikan pembukuan manual dengan proses yang lebih efisien dan minim kesalahan, sehingga operasional kantin dapat berjalan lebih modern dan tertata.",
+    desk: "Sistem Informasi dan Manajemen Del Cafe adalah aplikasi yang kami kembangkan untuk membantu pengelola kantin dalam mencatat menu, pemesanan, transaksi, dan penjualan harian secara lebih cepat dan terstruktur. Sistem ini menggantikan pembukuan manual dengan proses yang lebih efisien dan minim kesalahan, sehingga operasional kantin dapat berjalan lebih modern dan tertata.",
     tools: ["Flutter", "CSS", "Javascript", "Laravel", "Postgress", "Figma"],
     dad: "300",
   },
