@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base{
+  body{
+    font-family: "Poppins", sans-serif;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.3));
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.8));
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.3));
+  }
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.blink-infinite {
+  animation: blink 1.5s ease-in-out infinite;
+}
