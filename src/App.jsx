@@ -57,7 +57,6 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start" data-aos="fade-up" data-aos-delay="400">
               <a
                 href=""
-                download
                 className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-500 to-green-500 px-8 py-5 rounded-2xl font-bold text-white shadow-xl hover:shadow-emerald-400/60 transition-all hover:-translate-y-1.5"
               >
                 <i className="ri-download-2-line text-2xl group-hover:animate-bounce"></i>
