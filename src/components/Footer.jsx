@@ -3,11 +3,11 @@ const Footer = () => {
     <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center">
         <h1 className="text-2xl font-bold">Portfolio</h1>
         <div className="flex gap-7">
-            <a href="#beranda">Beranda</a>
-            <a href="#tentang">Tentang</a>
-            <a href="#pendidikan">Pendidikan</a>
-            <a href="#proyek">Organisasi</a>
-            <a href="#proyek">Proyek</a>
+            <a href="#beranda">Home</a>
+            <a href="#tentang">About</a>
+            <a href="#pendidikan">Education</a>
+            <a href="#proyek">Organization</a>
+            <a href="#proyek">Projects</a>
         </div>
         <div className="flex items-center gap-3">
             <a href="https://github.com/NataSiahaan53">
