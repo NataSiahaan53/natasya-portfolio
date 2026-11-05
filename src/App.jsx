@@ -475,7 +475,7 @@ function App() {
                         Data Analyst
                       </h3>
                       <p className="text-blue-300 font-medium">
-                        Global Country Data Analytics & Visualization
+                        Crime Data Analytics Dashboard (USA Crime Dataset)
                       </p>
                       <p className="text-cyan-300 text-sm">
                         Academic Project
@@ -486,19 +486,19 @@ function App() {
                   <ul className="text-left text-gray-300 space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-0.5">•</span>
-                      Performed data cleaning and preprocessing.
+                      Collected and explored crime data from an Excel dataset.
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-0.5">•</span>
-                      Conducted exploratory data analysis (EDA).
+                      Performed data cleaning and preprocessing to ensure data quality.
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-0.5">•</span>
-                      Analyzed data using SQL and PostgreSQL.
+                      Conducted data analysis using SQL and PostgreSQL to identify crime patterns and trends.
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-0.5">•</span>
-                      Created an interactive dashboard using Looker Studio.
+                      Created an interactive Looker Studio dashboard to visualize analytical findings.
                     </li>
                   </ul>
                 </div>
