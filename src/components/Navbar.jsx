@@ -1,4 +1,4 @@
-// components/Navbar.jsx
+
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -15,11 +15,12 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "#beranda" },
-    { name: "About", href: "#tentang" },
     { name: "Education", href: "#pendidikan" },
     { name: "Organization", href: "#organisasi" },
-    { name: "Projects", href: "#proyek" },
-    { name: "Contact", href: "#kontak" },
+    { name: "Experience", href: "#experience" },
+    { name: "Certifications", href: "#sertifikat" },
+    { name: "Skill", href: "#skills" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -34,21 +35,22 @@ const Navbar = () => {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16">
+
           {/* Logo */}
-        <a href="#beranda" className="flex-shrink-0">
-          <h1 className="text-2xl sm:text-3xl font-black text-sky-400">
-            Natasya Dian Elena Siahaan
-          </h1>
-        </a>
+          <a href="#beranda" className="flex-shrink-0">
+            <h1 className="text-lg sm:text-xl font-black text-sky-400">
+              Natasya Dian Elena Siahaan
+            </h1>
+          </a>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex items-center gap-8 lg:gap-12 font-medium text-lg">
+          <ul className="hidden md:flex items-center gap-4 lg:gap-5 font-medium text-sm">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="relative text-white/80 hover:text-blue-300 transition group"
+                  className="relative text-white/80 hover:text-blue-300 transition group whitespace-nowrap"
                 >
                   {link.name}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-cyan-400 group-hover:w-full transition-all duration-300"></span>
@@ -60,26 +62,30 @@ const Navbar = () => {
           {/* Mobile Hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-white text-3xl focus:outline-none"
+            className="md:hidden text-white text-2xl focus:outline-none"
             aria-label="Toggle menu"
           >
-            {isOpen ? <i className="ri-close-line"></i> : <i className="ri-menu-3-line"></i>}
+            {isOpen ? (
+              <i className="ri-close-line"></i>
+            ) : (
+              <i className="ri-menu-3-line"></i>
+            )}
           </button>
         </div>
 
         {/* Mobile Menu */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
-            isOpen ? "max-h-96 opacity-100 py-6" : "max-h-0 opacity-0 py-0"
+            isOpen ? "max-h-[500px] opacity-100 py-4" : "max-h-0 opacity-0 py-0"
           }`}
         >
-          <ul className="flex flex-col gap-6 text-xl font-medium text-center">
+          <ul className="flex flex-col gap-3 text-base font-medium text-center">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="block py-3 text-white hover:text-blue-300 transition"
+                  className="block py-2 text-white hover:text-blue-300 transition"
                 >
                   {link.name}
                 </a>
